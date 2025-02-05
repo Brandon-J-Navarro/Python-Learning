@@ -1,4 +1,4 @@
-# __main__.py
+# learning02.py
 from datetime import datetime
 
 def my_printName_function(user_name) -> None:
