@@ -15,4 +15,5 @@ def create_files(count, file_path):
 # Example usage:
 # create_files(5, "./output_files")
 if __name__ == "__main__":
-    create_files(100, "C:\\Users\\bnavarro\\Documents\\Test Files\\Python")
+    file_path = os.environ["USERPROFILE"] + "\\Documents\\Test Files\\Python"
+    create_files(100, file_path )
